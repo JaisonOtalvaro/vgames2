@@ -1,0 +1,110 @@
+body{
+	background: black;
+	font-family: Papyrus;
+	padding: 15px;
+	color: gray;
+}
+a:hover {
+  background-color: gray;
+}
+a:active {
+  color: black;
+}
+h1{
+	height: 50px;
+	width: 100%;
+	margin: 0px;
+	text-align: center;
+	line-height: 50px;
+	color: red;
+	text-shadow: 7px 4px 5px red;
+	border-bottom: 1px solid gray; 
+}
+h2{
+	color: red;
+}
+h3{
+	color: red;
+}
+img{
+	display: block;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+}
+#logo img{
+	width: inherit;
+	margin-left: inherit;
+	margin-right: inherit;
+}
+ul li{
+	height: 30px;
+	float: left;
+	list-style: none;
+	margin: 15px;
+	line-height: 20px;
+}
+.clearfix{
+	clear: both;
+}
+#container{
+	float: left;
+	width: 80%;
+}
+#sidebar{
+	margin-top: 50px;
+	min-height: 4420px;
+	float: left;
+	width: calc(18% - 20px);
+	padding: 10px;
+	border: 1px solid gray;
+	color: dodgerBlue;
+	background: black;
+}
+ol ul li{
+	list-style: inherit;
+	float: inherit;
+	line-height: 1;
+}
+table tr td{
+	border: 3px solid lightblue;
+	background: black;
+	color: dodgerBlue;
+}
+table th{
+	border: 3px solid red;
+	background: dimGray;
+	color: purple;
+}
+object{
+	padding-top: 10px;
+}
+.lista ul li{
+	font-family: "Lucida Handwriting";
+	padding-left: 2rem;
+	background-image: url(images/mando.png);
+	background-position: 0 0;
+	background-size: 1.2rem 1.2rem;
+	background-repeat: no-repeat;
+	list-style-type: none;
+}
+dt{
+	color: red;
+}
+dd{
+	font-family: "Lucida Handwriting";
+}
+div#sidebar ul li{
+	display: inline-block;
+	text-align: left;
+	font: 1em sans-serif;
+	margin-left: -15px;
+}
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+.button{
+	padding-top: 25px;
+}
